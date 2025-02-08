@@ -30,5 +30,5 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy:.2f}")
 
 # Save the trained model
-model_path = "/content/drive/MyDrive/Colab Notebooks/SC-exam/model.pkl"
+model_path = "sc-exam/model.pkl"
 joblib.dump(model, model_path)
