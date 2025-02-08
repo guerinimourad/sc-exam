@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load("model.pkl")
+model = joblib.load("sc-exam/model.pkl")
 
 # Streamlit UI
 st.title("Cancer Recurrence Prediction")
