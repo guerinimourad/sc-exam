@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv("cancer_issue.csv", sep=";")
+df = pd.read_csv("sc-exam/cancer_issue.csv", sep=";")
 
 # Drop unnecessary columns
 df = df.drop(columns=["PatientID", "FamilyHistory"])
