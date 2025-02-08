@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv("sc-exam/cancer_issue.csv", sep=";")
+df = pd.read_csv("https://github.com/guerinimourad/sc-exam/edit/master/cancer%20issue.csv/", sep=";")
 
 # Drop unnecessary columns
 df = df.drop(columns=["PatientID", "FamilyHistory"])
@@ -30,5 +30,5 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy:.2f}")
 
 # Save the trained model
-model_path = "sc-exam/model.pkl"
+model_path = "https://github.com/guerinimourad/sc-exam/model.pkl"
 joblib.dump(model, model_path)
